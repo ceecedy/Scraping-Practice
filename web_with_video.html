@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Embed Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+        }
+
+        .youtube-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-wrapper {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="video-wrapper">
+    <h2>Classic Polar Pass</h2>
+    <div class="video-container">
+        <iframe class="youtube-video" src="https://www.youtube.com/embed/-siGkjTOFMU" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="video-wrapper">
+    <h2>New Polar Pass</h2>
+    <div class="video-container">
+        <iframe class="youtube-video" src="https://www.youtube.com/embed/4H37daeHGYk" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+</body>
+</html>
